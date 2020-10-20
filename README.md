@@ -6,7 +6,7 @@ Prints a histogram of lines read via stdin, equivalent to `sort | uniq -c | sort
 
 Distribution of file extensions in `~/git`:
 
-```
+```bash
 $ find ~/git/ -iname "*.*" | sed -E "s/.*\.([^ ]+)\$/\1/g" | distr
 [...]
  2619 (  3.49%) map
