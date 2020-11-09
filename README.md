@@ -1,6 +1,6 @@
 # distr
 
-Prints a histogram of lines read via stdin, equivalent to `sort | uniq -c | sort -n`, but better.
+Prints a histogram of lines read via stdin, equivalent to `sort | uniq -c | sort -n`, but *better*.
 
 ## Examples
 
