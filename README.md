@@ -2,7 +2,26 @@
 
 Prints a histogram of lines read via stdin, equivalent to `sort | uniq -c | sort -n`, but better.
 
-## Example
+## Examples
+
+Simple example:
+
+```bash
+$ cat test
+a
+a
+a
+b
+b
+c
+a
+$ cat test | distr
+1 ( 14.29%) c
+2 ( 28.57%) b
+4 ( 57.14%) a
+- --------- ---
+7 (100.00%) total, 3 buckets
+```
 
 Distribution of file extensions in `~/git`:
 
